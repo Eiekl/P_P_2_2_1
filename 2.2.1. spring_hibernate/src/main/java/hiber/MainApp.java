@@ -16,6 +16,7 @@ public class MainApp {
 
       UserService userService = context.getBean(UserService.class);
 
+
       User user1 = new User("User1", "Lastname1", "user1@mail.ru");
       Car car1 = new Car("BMW", 318);
       user1.setCar(car1);
